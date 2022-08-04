@@ -20,7 +20,7 @@ platform :android do
   lane :test do
     gradle(
       task: "clean",
-      project_dir: "./android/"
+      project_dir: "D:\e-com-react-native\android"
     )
   end
 
