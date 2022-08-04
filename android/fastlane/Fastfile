@@ -16,11 +16,15 @@ update_fastlane
 default_platform(:android)
 
 platform :android do
+  before_each do |test|
+    bat "cd 'android'"
+  end
+  
   desc "Runs all the tests"
   lane :test do
     gradle(
       task: "clean",
-      project_dir: "D:\e-com-react-native\android"
+      project_dir: "D:/e-com-react-native/android/"
     )
   end
 
