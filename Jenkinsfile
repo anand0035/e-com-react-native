@@ -1,5 +1,4 @@
 pipeline{
-    pipeline{
     agent any
     environment {
             //Fastlane Environment Variables
@@ -19,7 +18,4 @@ pipeline{
             }
         }
     }
-}
-
-
 }
