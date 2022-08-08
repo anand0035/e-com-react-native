@@ -24,7 +24,7 @@ pipeline{
         stage('build android'){
             steps{
                 // bat 'icacls "android/gradlew" /grant Users:F'
-                sh "chmod +x an	droid/gradlew"
+                sh "chmod +x android/gradlew"
                 // bat cd 'android'
                 sh "cd android & Fastlane android test"
             }
