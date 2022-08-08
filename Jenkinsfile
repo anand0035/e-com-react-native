@@ -23,7 +23,7 @@ pipeline{
 //         }
         stage('build android'){
             steps{
-                 sh "chmod 755 gradlew"
+                 sh "chmod 755 android/gradlew"
                 sh "/var/lib/gems/3.0.0/gems/fastlane-2.208.0/bin/fastlane"
                 sh "Fastlane android test"
             }
