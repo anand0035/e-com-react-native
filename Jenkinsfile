@@ -26,7 +26,7 @@ pipeline{
                 // bat 'icacls "android/gradlew" /grant Users:F'
                 sh "chmod +x android/gradlew"
                 // bat cd 'android'
-                sh "cd android & Fastlane android test"
+                sh "Fastlane android test"
             }
         }
     }
