@@ -7,10 +7,7 @@ platform :android do
   
   desc "Runs all the tests"
   lane :test do
-    gradle(
-      task: "clean",
-      project_dir: "./android/"
-    )
+    puts "hi there"
   end
 
 end
