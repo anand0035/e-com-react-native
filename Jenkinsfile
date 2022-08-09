@@ -25,7 +25,7 @@ pipeline{
             steps{
                 // sh "chmod +x gradlew"
                 sh "/var/lib/gems/3.0.0/gems/fastlane-2.208.0/bin/fastlane"
-                sh "fastlane build"
+                sh "fastlane android build"
             }
         }
     }
