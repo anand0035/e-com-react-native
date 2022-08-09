@@ -4,15 +4,5 @@
     
     
     
-      
-      <testcase classname="fastlane.lanes" name="0: update_fastlane" time="7.2401845">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.0058983">
-        
-      </testcase>
-    
   </testsuite>
 </testsuites>
