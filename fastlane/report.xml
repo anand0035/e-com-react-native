@@ -4,5 +4,15 @@
     
     
     
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.0058413">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: assemble" time="225.6243315">
+        
+      </testcase>
+    
   </testsuite>
 </testsuites>
