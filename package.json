@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/anand0035/e-com-react-native/issues"
   },
-  "homepage": "https://github.com/anand0035/e-com-react-native#readme"
+  "homepage": "https://github.com/anand0035/e-com-react-native#readme",
+  "dependencies": {
+    "react-native-unimodules": "^0.14.10"
+  }
 }
