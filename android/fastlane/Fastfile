@@ -3,10 +3,8 @@ update_fastlane
 default_platform(:android)
 
 platform :android do
-
-  
   desc "Runs all the tests"
-  lane :test do
+  lane :build do
     puts "hi there"
   end
 
