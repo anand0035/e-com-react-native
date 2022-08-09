@@ -11,11 +11,11 @@ pipeline{
 
     stages
     {
-//         stage('npm install'){
-//             steps{
-//                 bat 'npm install'
-//             }
-//         }
+        stage('npm install'){
+            steps{
+                sh 'npm install'
+            }
+        }
 //         stage('testing your code'){
 //             steps{
 //                 bat 'npm run test'
@@ -23,7 +23,7 @@ pipeline{
 //         }
         stage('build android'){
             steps{
-                // sh "chmod +x android/gradlew"
+                sh "chmod +x android/gradlew"
                 sh "/var/lib/gems/3.0.0/gems/fastlane-2.208.0/bin/fastlane android build"
                 // sh "fastlane "
             }
