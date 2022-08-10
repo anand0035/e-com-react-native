@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/anand0035/e-com-react-native#readme",
   "dependencies": {
-    "react-native-unimodules": "^0.14.10"
+    "react": "16.9.0",
+    "react-native": "0.61.4",
+    "react-native-unimodules": "^0.14.10",
+    "react-native-vector-icons": "^9.2.0"
   }
 }
